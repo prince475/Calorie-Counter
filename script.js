@@ -8,3 +8,9 @@ const output = document.getElementById('output');
 
 // Declaring an error variable and setting it's value to boolean
 let isError = false; 
+
+// Creating our stinrg clean up function to clean the input string value received and ensure we have a number.
+// Since we want receive a number from our set input
+function cleanInputString(str) {
+  
+}
