@@ -12,5 +12,8 @@ let isError = false;
 // Creating our stinrg clean up function to clean the input string value received and ensure we have a number.
 // Since we want receive a number from our set input
 function cleanInputString(str) {
-  
+  const strArray = str.split('');
+  const cleanStrArray = [];
+  for (let i = 0; i < strArray.length; i++) {
+  }
 }
