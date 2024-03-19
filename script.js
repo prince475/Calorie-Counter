@@ -22,15 +22,20 @@ let isError = false;
 //   }
 // }
 
-// using regex to do the operation above
+// Using regex to do the operation above
 
 function cleanInputString(str) {
   const regex = /[+-\s]/g;
   return str.replace(regex, '');
 }
 
-// catching e in number inputs using regex
+// Catching e in number inputs using regex
 function isInvalidInput(str) {
   const regex = /\d+e\d+/i;
   return str.match(regex);
+}
+
+// Allowing users to add entry function
+function addEntry() {
+
 }
