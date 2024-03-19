@@ -37,5 +37,5 @@ function isInvalidInput(str) {
 
 // Allowing users to add entry function
 function addEntry() {
-
+  const targetId = '#' + entryDropdown.value;
 }
