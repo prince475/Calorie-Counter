@@ -32,4 +32,5 @@ function cleanInputString(str) {
 // catching e in number inputs using regex
 function isInvalidInput(str) {
   const regex = /\d+e\d+/i;
+  return str.match(regex);
 }
