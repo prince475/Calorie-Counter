@@ -48,3 +48,8 @@ function addEntry() {
   targetInputContainer.insertAdjacentHTML("beforeend", HTMLString);
   addEntryButton.addEventListener("click", addEntry);
 }
+
+// Getting our inputs
+function getCaloriesFromInputs(list) {
+  
+}
