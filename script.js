@@ -55,4 +55,5 @@ function getCaloriesFromInputs(list) {
   for (const item of list) {
     
   }
+  const currVal = item.value
 }
