@@ -51,5 +51,6 @@ function addEntry() {
 
 // Getting our inputs
 function getCaloriesFromInputs(list) {
+  let calories = 0;
   
 }
