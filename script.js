@@ -67,5 +67,6 @@ function getCaloriesFromInputs(list) {
 }
 
 function calculateCalories(e) {
-   
+  e.preventDefault()
+  isError = false;
  }
