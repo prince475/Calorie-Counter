@@ -49,6 +49,13 @@ function addEntry() {
   addEntryButton.addEventListener("click", addEntry);
 }
 
+// Getting the values the user has added
+function calculateCalories(e) {
+  e.preventDefault();
+  isError = false;
+  let breakfastNumberInputs = document.querySelectorAll('#breakfast input[type=number]')
+}
+
 // Getting our inputs
 function getCaloriesFromInputs(list) {
   let calories = 0;
