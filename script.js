@@ -73,6 +73,7 @@ function getCaloriesFromInputs(list) {
   return calories
 }
 
+// Calculating calories based on user input.
 function calculateCalories(e) {
   e.preventDefault()
   isError = false;
