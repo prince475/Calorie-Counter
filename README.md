@@ -37,5 +37,5 @@ SOFTWARE.
 ```
 
 ## Author
-prince
+prince daniel
 
