@@ -10,7 +10,7 @@ In this practice project, you'll learn basic regular expressions, template liter
 `html`, `css`, and `Javascript`
 
 ## License
-
+This application has been licensed under the MIT license
 
 ```
 MIT License
