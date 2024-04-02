@@ -71,6 +71,8 @@ function calculateCalories(e) {
     return(calculateCalories)
   }
 
+  const consumedCalories = breakfastCalories + lunchCalories + dinnerCalories + snacksCalories + exerciseCalories;
+
 }
 
 // Getting our inputs
