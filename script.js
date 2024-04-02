@@ -67,6 +67,10 @@ function calculateCalories(e) {
 
   const budgetCalories = getCaloriesFromInputs([budgetNumberInput])
 
+  if(isError){
+    return(calculateCalories)
+  }
+
 }
 
 // Getting our inputs
