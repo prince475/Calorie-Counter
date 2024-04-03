@@ -71,6 +71,7 @@ function calculateCalories(e) {
     return(calculateCalories)
   }
 
+// calculations for the calories 
   const consumedCalories = breakfastCalories + lunchCalories + dinnerCalories + snacksCalories + exerciseCalories;
   const remainingCalories = (budgetCalories - consumedCalories) + exerciseCalories
 
