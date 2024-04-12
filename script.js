@@ -86,7 +86,7 @@ function calculateCalories(e) {
       ${Math.abs(remainingCalories)} Calorie ${surplusOrDeficit}
     </span>
      <hr>
-
+    <p>${budgetCalories} Calories Budgeted</p>
   `;
 }
 
