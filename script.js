@@ -82,7 +82,9 @@ function calculateCalories(e) {
 
 // Constructing the HTML string that will be displayed in the output element
   output.innerHTML = `
-    <span class="${surplusOrDeficit.toLowerCase()}"></span>
+    <span class="${surplusOrDeficit.toLowerCase()}">
+      ${remainingCalories} Calorie ${surplusOrDeficit}
+    </span>
   `;
 }
 
