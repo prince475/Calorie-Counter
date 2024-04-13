@@ -112,6 +112,10 @@ function getCaloriesFromInputs(list) {
   return calories
 }
 
+// Adding event listeners for our calculation functons and add entry functions
+  addEntryButton.addEventListener("click", addEntry);
+  calorieCounter.addEventListener("submit", calculateCalories); 
+  
 // Calculating calories based on user input.
 function calculateCalories(e) {
   e.preventDefault()
