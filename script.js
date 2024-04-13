@@ -115,6 +115,11 @@ function getCaloriesFromInputs(list) {
 // Adding event listeners for our calculation functons and add entry functions
   addEntryButton.addEventListener("click", addEntry);
   calorieCounter.addEventListener("submit", calculateCalories); 
+
+// Adding the ability of a user to clear the form
+  function clearForm() {
+  
+  }
   
 // Calculating calories based on user input.
 function calculateCalories(e) {
