@@ -119,6 +119,10 @@ function getCaloriesFromInputs(list) {
 // Adding the ability of a user to clear the form
   function clearForm() {
     const inputContainers = Array.from(document.querySelectorAll('.input-container'));
+    for (const container of inputContainers) {
+      container.innerHTML = "";
+    }
+
   }
   
 // Calculating calories based on user input.
