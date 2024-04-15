@@ -122,6 +122,7 @@ function getCaloriesFromInputs(list) {
     for (const container of inputContainers) {
       container.innerHTML = "";
     }
+    budgetNumberInput.value = "";
 
   }
   
