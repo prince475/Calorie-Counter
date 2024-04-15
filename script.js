@@ -123,6 +123,7 @@ function getCaloriesFromInputs(list) {
       container.innerHTML = "";
     }
     budgetNumberInput.value = "";
+    output.innerText = "";
 
   }
   
